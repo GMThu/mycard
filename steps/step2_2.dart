@@ -61,21 +61,6 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-              Card(z
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: ListTile(
-                  leading: Icon(Icons.email, color: Colors.teal.shade900),
-                  title: Text(
-                    'gimmy@thu.edu.tw',
-                    style: TextStyle(
-                      color: Colors.teal.shade900,
-                      fontFamily: 'gimmy@lydata.com.tw',
-                      fontSize: 20.0,
-                    ),
-                  ),
-                ),
-              ),
             ],
           ),
         ),
