@@ -46,22 +46,24 @@ class MyApp extends StatelessWidget {
                 child: Divider(color: Colors.teal.shade100),
               ),
 
-              Card(
+              Container(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                child: ListTile(
-                  leading: Icon(Icons.phone, color: Colors.teal.shade900),
-                  title: Text(
-                    '+886 975163960',
-                    style: TextStyle(
-                      color: Colors.teal.shade900,
+                padding: EdgeInsets.all(10.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 35.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.phone, color: Colors.teal.shade900,),
+                    SizedBox(width: 20,),
+                    Text('+886 975163960', style: TextStyle(
                       fontFamily: 'SourceCodePro',
                       fontSize: 20.0,
-                    ),
-                  ),
-                ),
+                      letterSpacing: 2.5,
+                      color: Colors.teal.shade900,
+                      fontWeight: FontWeight.bold,
+                    ),),
+                  ],),
               ),
-
               Container(
                 color: Colors.white,
                 padding: EdgeInsets.all(10.0),
